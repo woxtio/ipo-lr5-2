@@ -1,10 +1,9 @@
-def anagrams(str1, str2):
-    str1 = str1.replace(" ", "").lower()
-    str2 = str2.replace(" ", "").lower()
-    return sorted(str1) == sorted(str2)
-string1 = input("Введите первую строку: ")
-string2 = input("Введите вторую строку: ")
-if anagrams(string1, string2):
-    print("Строки являются анаграммами.")
-else:
-    print("Строки не являются анаграммами.")
+1 = str(input('Введите строку: ')) #приглашение для ввода первой строки
+2= str(input('Введите вторую строку: '))  #приглашение для второй строки
+1_sorted = sorted(1)  #используем сортировку s1 
+2_sorted = sorted(2)  #используем сортировку s2
+if 1_sorted==2_sorted:  #если сортированная строка s1 = сортированной строке s2
+    print(f' {1} и {2} анаграмы')  #выводим это
+else:  #иначе 
+    print(f'{1} и {2} не анаграмы')  #выводим это
+    
