@@ -1,6 +1,7 @@
 str1=str(input("Введите первую строку (на русском)")) #Приглашение для ввода первой строки
 str1=str1.lower()
 str2=str(input("Введите вторую строку (на русском)")) #Приглашение для ввода второй строки
+str2=str2.lower()
 str1_sorted=sorted(str1) #Используем сортировку str1 
 str2_sorted=sorted(str2) #Используем сортировку str2 
 if str1_sorted==str2_sorted: #Если str1_sorted==str2_sorted
